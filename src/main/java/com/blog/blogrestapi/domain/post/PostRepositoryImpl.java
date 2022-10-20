@@ -2,7 +2,6 @@ package com.blog.blogrestapi.domain.post;
 
 import com.blog.blogrestapi.common.repository.BaseRepositoryImpl;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import lombok.RequiredArgsConstructor;
 
 import javax.persistence.EntityManager;
 import java.util.Optional;

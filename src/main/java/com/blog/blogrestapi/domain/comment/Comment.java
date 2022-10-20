@@ -18,7 +18,7 @@ public class Comment {
     private Long id;
 
     @Column(nullable = false)
-    private String comment;
+    private String content;
 
     @CreationTimestamp
     private LocalDateTime createdAt;
